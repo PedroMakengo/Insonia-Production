@@ -1,0 +1,113 @@
+@font-face {
+    font-family: Source;
+    src: url(../Fonts/Source_Sans_Pro/SourceSansPro-Light.ttf);
+}
+*,
+body,
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body {
+    scroll-behavior: smooth;
+}
+body, 
+label {
+    font-family: Source;
+    font-weight: 700;
+}
+
+.container {
+    width: 70%;
+}
+
+.logo img {
+    width: 70px;
+}
+
+.menuNavegacao ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menuNavegacao ul li {
+    display: inline-block;
+}
+
+.menuNavegacao ul li a {
+    padding: 30px 30px;
+    display: block;
+    color: #000;
+    border-top: 2px solid transparent;
+}
+
+.menuNavegacao ul li a:hover {
+    text-decoration: none;
+    border-top: 2px solid #3e2020;
+    color: #3e2020;
+}
+
+.menuNavegacao ul li a.active {
+    border-top: 2px solid #3e2020;
+    color: #3e2020;
+}
+
+.sessaoBanner {
+    background-image: linear-gradient(#000000b0, #000000b0), url(../Img/Banners/1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 600px;
+}
+
+.galeria .shadow {
+    height: 250px;
+}
+
+form input[type="text"],
+form input[type="tel"],
+form input[type="email"],
+form textarea {
+    border: 0px !important;
+    border-radius: 0px !important;
+    border-bottom: 2px dashed #3e2020 !important;
+}
+
+.cartaoPreco {
+    border: 2px dashed #3e2020;
+}
+
+.fotoEmpresa,
+.bordaPadrao {
+    border: 2px dashed #3e2020;
+}
+
+.fotoMini {
+    border: 2px dashed #3e2020;
+    background: white;
+}
+
+
+
+/* Sobre */
+.fotoEmpresa {
+    background-image: linear-gradient(#000000a2, #000000a2), url(../Img/Galeria/5.jpg);
+    background-size: 100%;
+    opacity: 0.8;
+    border: 3px solid #311818;
+}
+
+/* Preçario */
+.bordaPreco{
+    width: 140px;
+    height: 140px;
+    background: #311818ec;
+    border-radius: 37% 63% 48% 52% / 31% 41% 59% 69% !important;
+}
+.bordaPreco img {
+    width: 50%;
+    position: relative;
+    top: 35px;
+}

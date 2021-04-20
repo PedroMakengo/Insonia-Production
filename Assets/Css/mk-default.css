@@ -1,0 +1,84 @@
+/* Ul */
+ul, li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+/* Btn */
+.bgPadrao {
+  background: #3e2020;
+  color: #fff;
+}
+
+.bgPadrao:hover {
+  background: #311818;
+}
+
+.btnTituloPadrao {
+  border-radius: 37% 63% 48% 52% / 31% 41% 59% 69% !important;
+}
+/* Galeria */
+.galeria1 {
+  background-image: linear-gradient(#0000000e, #0000000e), url(../Img/Galeria/9.jpg);
+  background-size: 100%;
+  background-position: center;
+  border: 3px dashed #311818;
+  opacity: 0.8;
+  transition: 1s all;
+}
+.galeria1:hover {
+  opacity: 1;
+  cursor: pointer;
+  transition: 1s all;
+  transform: scale(10deg, 10deg);
+}
+.galeria2 {
+  background-image: linear-gradient(#00000021, #00000021), url(../Img/Galeria/1.jpg);
+  background-size: 100%;
+  background-position: center;
+  border: 3px dashed #311818;
+  transition: 1s all;
+  opacity: 0.8;
+}
+
+.galeria3 {
+  background-image: linear-gradient(#00000021, #00000021), url(../Img/Galeria/2.jpg);
+  background-size: 100%;
+  background-position: center;
+  border: 3px dashed #311818;
+  transition: 1s all;
+  opacity: 0.8;
+}
+.galeria4 {
+  background-image: linear-gradient(#00000021, #00000021), url(../Img/Galeria/3.jpg);
+  background-size: 100%;
+  background-position: center;
+  border: 3px dashed #311818;
+  transition: 1s all;
+  opacity: 0.8;
+}
+.galeria5 {
+  background-image: linear-gradient(#00000021, #00000021), url(../Img/Galeria/4.jpg);
+  background-size: 100%;
+  background-position: center;
+  border: 3px dashed #311818;
+  transition: 1s all;
+  opacity: 0.8;
+}
+.galeria6 {
+  background-image: linear-gradient(#00000021, #00000021), url(../Img/Galeria/5.jpg);
+  background-size: 100%;
+  background-position: top;
+  border: 3px dashed #311818;
+  transition: 1s all;
+  opacity: 0.8;
+}
+.galeria2:hover,
+.galeria3:hover,
+.galeria4:hover,
+.galeria5:hover,
+.galeria6:hover {
+  opacity: 1;
+  cursor: pointer;
+  transition: 1s all;
+}
